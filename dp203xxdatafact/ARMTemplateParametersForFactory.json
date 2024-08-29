@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "dp203xxdatafact"
+		},
+		"AzureDataLakeCSV_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeParquet_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeCSV_properties_typeProperties_url": {
+			"value": "https://dp203xxxx.dfs.core.windows.net/"
+		},
+		"AzureDataLakeParquet_properties_typeProperties_url": {
+			"value": "https://dp203xxxx.dfs.core.windows.net/"
+		}
+	}
+}
